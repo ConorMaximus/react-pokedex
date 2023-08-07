@@ -1,0 +1,61 @@
+$box-shadow-x: 4px;
+$box-shadow-y: 4px;
+$box-shadow-blur: 10px;
+
+.button-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 20px;
+}
+
+.pokemon-card { 
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.wrong {
+    filter: brightness(0%);
+  }
+  
+.correct {
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+    -webkit-filter: brightness(100%);
+    filter: brightness(100%);
+  }
+
+.grass {
+    box-shadow: $box-shadow-x $box-shadow-y $box-shadow-blur green;
+}
+
+.fire {
+    box-shadow: $box-shadow-x $box-shadow-y $box-shadow-blur red;
+}
+
+.water {
+    box-shadow: $box-shadow-x $box-shadow-y $box-shadow-blur blue;
+}
+
+.bug {
+    box-shadow: $box-shadow-x $box-shadow-y $box-shadow-blur purple;
+}
+
+.normal {
+    box-shadow: $box-shadow-x $box-shadow-y $box-shadow-blur yellow;
+}
+
+.fairy {
+    box-shadow: $box-shadow-x $box-shadow-y $box-shadow-blur pink;
+}
+
+.poison {
+    box-shadow: $box-shadow-x $box-shadow-y $box-shadow-blur purple;
+}
+
+.ground {
+    box-shadow: $box-shadow-x $box-shadow-y $box-shadow-blur brown;
+}
+
+.electric {
+    box-shadow: $box-shadow-x $box-shadow-y $box-shadow-blur yellow;
+}

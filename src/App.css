@@ -40,3 +40,9 @@
 .read-the-docs {
   color: #888;
 }
+
+.pokemon-container{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 20px;
+}
